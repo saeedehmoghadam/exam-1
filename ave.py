@@ -1,19 +1,19 @@
 import math
 
-name = input('whats your name?')
-lastname = input(' whats your lastname?')
-a = float (input('type the first lessons:'))
-b = float (input('type the second lessons:'))
-c = float (input('type the third lessons:'))
+name = input("whats your name?")
+last_name=input("whats your last name?")
+a = float (input("type the first lessons:"))
+b = float (input("type the second lessons:"))
+c = float (input("type the third lessons:"))
 
-x = (a + b + c ) / 3
- print(x)
+x = a + b + c 
+average=x/3
 
- if x =<17 :
-     print( "great")
+if average >=  17 :
+     print( name,last_name,"great")
 
- elif x= 17  and  x >= 12 :
-      print( "normal")   
+elif 17> average >= 12 :
+      print( name,last_name, "normal")   
 
- elif x =< 12 :
-     print ("fail")     
+elif average < 12 :
+     print ( name,last_name,"fail")     
