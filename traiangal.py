@@ -1,12 +1,16 @@
 import math
-a = int(input("type first rid1:" ))
-b = int(input("type second rid2:" ))
-c = int(input("type the third rid3:" ))
+a = int(input("please type first rid1: "))
+b = int(input("please type second rid2: "))
+c = int(input("please type third rid3: "))
 
-
-if a*a == b*b + c*c or b*b == c*c + a*a or c*c == a*a + b*b:
- print("right")
-
-
+if a<b+c and a<b+c and a<b+c :
+    print("right")
 else:
- print("incorrect")  
+    print("incorrect")
+a = int(input("please type first rid1: "))
+b = int(input("please type second rid2: "))
+c = int(input("please type third rid3: "))
+if a<b+c and a<b+c and a<b+c :
+    print('You can create a Triangle')
+else:
+    print('You can\'t create a Triangle')  
