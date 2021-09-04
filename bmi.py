@@ -1,19 +1,19 @@
 import math
-h = float(input("type height ="))
-w = float(input("type weight ="))
+h= int(input("please input height : "))
+w= int(input(" please input weight :"))
 
-h= h/100
+hei = (h * 100) ** 2
 
-bmi =(h ** 2) / w  
+bmi = w / hei
 
-if bmi < 18.5 :
- print("weight dificiency" )
+if 25<= bmi < 30 :      
+    print("fat")
 
-elif  18.5 > bmi < 24.5 : 
- print ("normal")
+elif  18<= bmi <25 :
+    print("normal")
 
-elif 24.5 > bmi < 29.9 : 
- print ("overwieght")
+elif 18> bmi:
+    print("bony")
 
-elif  bmi > 30 :
- print ("fat")
+elif 30<= bmi <40:
+    print("very fat") 
